@@ -1,0 +1,4 @@
+.dark ::selection {
+    background: rgba(178, 134, 252, 0.4);
+    color: #e2e8f0;
+}
