@@ -1,0 +1,4 @@
+[tools]
+nodejs = "lts"
+"npm:resume-cli" = "latest"
+"npm:jsonresume-theme-elegant" = "latest"

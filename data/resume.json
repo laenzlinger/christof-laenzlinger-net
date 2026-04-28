@@ -1,0 +1,421 @@
+{
+  "basics": {
+    "name": "Christof Länzlinger",
+    "label": "System Architect & Software Engineer",
+    "url": "https://christof.laenzlinger.net",
+    "location": {
+      "city": "",
+      "country": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "christof-laenzlinger-903bb082",
+        "url": "https://www.linkedin.com/in/christof-laenzlinger-903bb082/"
+      },
+      {
+        "network": "GitHub",
+        "username": "laenzlinger",
+        "url": "https://github.com/laenzlinger"
+      }
+    ],
+    "picture": "https://christof.laenzlinger.net/images/christof-laenzlinger.png",
+    "summary": "System Architect and Senior Software Engineer with 25+ years of experience in cloud-based solutions and DevOps platforms. Proven track record in leading teams, coaching, and driving agile transformation. Passionate about leveraging open source technologies with a strong focus on quality and continuous improvement."
+  },
+  "work": [
+    {
+      "startDate": "2024-06",
+      "position": "System Architect",
+      "name": "Swisscom (Schweiz) AG",
+      "summary": "Responsible for system architecture of DevOps Foundation Tools: GitLab, Artifactory, Hashicorp Vault, Jira, internal DevOps portal.",
+      "highlights": [
+        "Architecture for cloud-based DevOps services supporting 5,000+ users",
+        "Leadership and coaching of 4 agile teams (30 people)",
+        "Maintenance and enhancement of complex systems",
+        "Integration of agile organisation management application with IAM"
+      ]
+    },
+    {
+      "startDate": "2018-04",
+      "endDate": "2024-06",
+      "position": "DevOps Engineer V",
+      "name": "Swisscom (Schweiz) AG",
+      "summary": "Design and development of self-service platform for DevOps lifecycle management",
+      "highlights": [
+        "Management of cloud-based DevOps services (Bitbucket, Artifactory, Jenkins, SonarQube, Checkmarx)",
+        "Migration of DevOps services from internal and VM based cloud to public cloud using Kubernetes (GCP)",
+        "Technical lead, Security Champion, and coaching of 6-person near shore development team responsible for Internal DevOps Portal"
+      ]
+    },
+    {
+      "startDate": "2010-12",
+      "endDate": "2018-04",
+      "position": "Senior Software Engineer",
+      "name": "Swisscom (Schweiz) AG",
+      "summary": "Development of multiple central cross-channel applications",
+      "highlights": [
+        "Product catalogue driven application integrated with CRM system for VoIP transformation.",
+        "Architecture and cloud transformation of existing applications using CloudFoundry.",
+        "Driving CI/CD enablement and DevOps automation for 4 teams.",
+        "Introduction of base infrastructure for large microservices-based platform with 100+ services using Spring Boot and Angular.",
+        "Technical lead in agile transformation."
+      ]
+    },
+    {
+      "startDate": "2008-11",
+      "endDate": "2010-11",
+      "position": "Senior Java Consultant",
+      "name": "Trivadis AG",
+      "summary": "Development of a central internet sales platform."
+    },
+    {
+      "startDate": "2006-11",
+      "endDate": "2008-10",
+      "position": "Senior Java Developer",
+      "name": "Raiffeisen Schweiz",
+      "summary": "Lead developer in asset management and card business projects.",
+      "highlights": [
+        "Consulting and development in multiple projects.",
+        "Development of base frameworks for JEE applications based on Spring and JSF."
+      ]
+    },
+    {
+      "startDate": "2003-03",
+      "endDate": "2006-10",
+      "position": "Senior Java Developer",
+      "name": "sunrise",
+      "summary": "Development of shop and portal applications in the telco retail business.",
+      "highlights": [
+        "Web development based on Java, Oracle DB and Dynamo Application Server.",
+        "Transformation to open source (Spring and JEE) based development and infrastructure. "
+      ]
+    },
+    {
+      "startDate": "2001-09",
+      "endDate": "2003-02",
+      "position": "Senior Engineer Network",
+      "name": "sunrise",
+      "summary": "Development of interfaces between planning and operation of the mobile network.",
+      "highlights": [
+        "Automation of interfaces between planning and operation of the mobile network.",
+        "Configuration management for GSM mobile network with interfaces to planning and operation systems."
+      ]
+    },
+    {
+      "startDate": "1998-10",
+      "endDate": "2001-03",
+      "position": "Radio Performance Engineer",
+      "name": "diAx",
+      "summary": "Enhancement of performance management solution for GSM mobile network.",
+      "highlights": [
+        "Data warehouse development for mobile network performance management.",
+        "GIS visualisation of configuration and performance data for network optimisation."
+      ]
+    },
+    {
+      "startDate": "1997-12",
+      "endDate": "1998-09",
+      "position": "Software Development Engineer",
+      "name": "Ascom Infrasys",
+      "summary": "Development of QVoice system for measuring GSM mobile network quality.",
+      "highlights": [
+        "Integration of real-time speech quality algorithm on embedded DSP systems.",
+        "Development of interfaces to GPS and GSM modules."
+      ]
+    },
+    {
+      "startDate": "1996-01",
+      "endDate": "1997-11",
+      "position": "Assistant in Laboratory for High Frequency and Communication Technology",
+      "name": "Technikum Winterthur",
+      "highlights": [
+        "Mobile acceleration measurement system for race horse shoes based on embedded DSP system and digital audio tape recorders.",
+        "Support of the laboratory in research and teaching activities in the field of high frequency and communication technology."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pedalboard Hardware and Software Platform",
+      "description": "Custom pedalboard platform for managing guitar effects pedals during live performances, combining electronics design, embedded systems, and real-time audio processing.",
+      "highlights": [
+        "Hardware design and PCB development for audio signal processing",
+        "Embedded software development on Raspberry Pi for real-time performance",
+        "Integration of multiple audio effects with low-latency requirements",
+        "Live performance reliability and user interface design"
+      ],
+      "keywords": [
+        "Embedded Systems",
+        "Audio Processing",
+        "Electronics Design",
+        "Raspberry Pi",
+        "Real-time Systems",
+        "KiCad"
+      ],
+      "url": "https://github.com/pedalboard"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "C/C++",
+        "Rust",
+        "Golang",
+        "Java (SE, EE)",
+        "Spring Boot",
+        "Python",
+        "Bash/Shell",
+        "XML",
+        "JSON",
+        "PL/SQL"
+      ]
+    },
+    {
+      "name": "Embedded Systems & Real-time Processing",
+      "keywords": [
+        "Embedded systems development",
+        "Real-time signal processing",
+        "DSP (Digital Signal Processing)",
+        "Audio algorithms",
+        "Multi-threaded real-time systems",
+        "Low-latency audio processing",
+        "Raspberry Pi",
+        "Microcontrollers"
+      ]
+    },
+    {
+      "name": "User Interface Development",
+      "keywords": [
+        "Angular",
+        "VueJS",
+        "TypeScript",
+        "HTML/CSS",
+        "Component-based architecture",
+        "Event-driven programming",
+        "State management",
+        "Real-time UI updates"
+      ]
+    },
+    {
+      "name": "Cloud Services & Architecture",
+      "keywords": [
+        "Cloud software project planning and implementation",
+        "Microservices architecture",
+        "Maintenance and enhancement of complex systems",
+        "Coaching"
+      ]
+    },
+    {
+      "name": "Security",
+      "keywords": [
+        "Security Champion",
+        "Checkmarx",
+        "Snyk",
+        "SonarQube",
+        "Hashicorp Vault",
+        "IAM Integration",
+        "Security scanning and vulnerability management"
+      ]
+    },
+    {
+      "name": "Personal Strengths",
+      "keywords": [
+        "Teamwork",
+        "Quality-conscious",
+        "Solution-oriented",
+        "Strategic, forward-thinking and analytical mindset",
+        "Perseverance"
+      ]
+    },
+    {
+      "name": "Methodology",
+      "keywords": [
+        "Agile (Scrum, Kanban)",
+        "CI/CD",
+        "XP (TDD)",
+        "UML"
+      ]
+    },
+    {
+      "name": "Systems",
+      "keywords": [
+        "Linux (Ubuntu, ArchLinux, RHEL)",
+        "OSX",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "C/C++",
+        "Rust",
+        "Golang",
+        "Java (SE, EE)",
+        "Spring Boot",
+        "Python",
+        "Bash/Shell",
+        "XML",
+        "JSON",
+        "PL/SQL"
+      ]
+    },
+    {
+      "name": "Interfaces",
+      "keywords": [
+        "Webservices (REST, gRPC, SOAP)",
+        "JMS",
+        "Kafka"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "MySQL (MariaDB)",
+        "Oracle",
+        "DB2",
+        "JPA",
+        "PL/SQL"
+      ]
+    },
+    {
+      "name": "DevOps & Infrastructure",
+      "keywords": [
+        "Kubernetes",
+        "Terraform",
+        "CloudFoundry",
+        "Containers (Docker)",
+        "GitLab CI/CD",
+        "Jenkins",
+        "Artifactory",
+        "Bitbucket"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "keywords": [
+        "AWS (EKS, ECS, S3, IAM)",
+        "GCP (GKE, Compute Engine, Kubernetes Engine)"
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "ELK Stack",
+        "Splunk"
+      ]
+    },
+    {
+      "name": "Tools & Technologies",
+      "keywords": [
+        "Git (GitLab, GitHub)",
+        "Jira"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "basic"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technikum Winterthur",
+      "area": "Software Engineering, Nachrichtentechnik",
+      "studyType": "Dipl. El. Ing. FH",
+      "startDate": "1992",
+      "endDate": "1995"
+    },
+    {
+      "institution": "Bühler AG, Uzwil",
+      "area": "Elektroniker",
+      "studyType": "Berufslehre",
+      "startDate": "1988",
+      "endDate": "1992",
+      "courses": [
+        "Gewerbliche Berufsschule und Berufsmittelschule St. Gallen"
+      ]
+    },
+    {
+      "institution": "Schule Niederuzwil",
+      "studyType": "Primar- und Sekundarschule",
+      "startDate": "1979",
+      "endDate": "1988"
+    },
+    {
+      "institution": "Softwareschule Schweiz, Bern",
+      "area": "Objektorientierte Technologie",
+      "studyType": "Nachdiplomkurs",
+      "startDate": "2000-04",
+      "endDate": "2000-10"
+    },
+    {
+      "institution": "King’s School of English, London",
+      "area": "Englischstudium",
+      "studyType": "Sprachaufenthalt",
+      "startDate": "1996-08",
+      "endDate": "1996-10"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Cloud Practitioner Certification",
+      "issuer": "Amazon Web Services",
+      "date": "2022-08-23"
+    },
+    {
+      "name": "Kubernetes Application Development",
+      "issuer": "The Linux Foundation",
+      "date": "2017-08-11"
+    },
+    {
+      "name": "Professional Scrum Master",
+      "issuer": "scrum.org",
+      "date": "2010-02-01"
+    },
+    {
+      "name": "Sun Certified Java Programmer",
+      "issuer": "Sun Microsystems",
+      "date": "2003-11-01"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Acoustic guitar",
+      "keywords": [
+        "Blues",
+        "Jazz",
+        "Irish Folk",
+        "Live Performance",
+        "Recording"
+      ]
+    },
+    {
+      "name": "Woodworking",
+      "keywords": [
+        "Hand tools",
+        "CNC",
+        "Furniture"
+      ]
+    },
+    {
+      "name": "Open source hardware and software development",
+      "keywords": [
+        "Rust",
+        "KiCad",
+        "Effect Processor"
+      ]
+    }
+  ]
+}

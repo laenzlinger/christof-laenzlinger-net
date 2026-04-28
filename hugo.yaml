@@ -1,0 +1,63 @@
+baseURL: https://christof.laenzlinger.net/
+languageCode: en-us
+title: Christof Länzlinger
+theme: ["PaperMod"]
+enableRobotsTXT: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      tag: tags
+    menu:
+      main:
+        - name: Projects
+          url: projects/
+          weight: 5
+        - name: Music
+          url: bands/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 15
+        - name: About
+          url: about/
+          weight: 20
+
+params:
+  env: production
+  description: "Personal website of Christof Länzlinger — software engineer, maker and musician."
+  author: Christof Länzlinger
+  profileMode:
+    enabled: true
+    subtitle: "Software Engineer, Maker and Musician"
+    imageUrl: "/images/christof-laenzlinger.png"
+    buttons:
+      - name: About
+        url: "/about"
+  socialIcons:
+    - name: github
+      url: "https://github.com/laenzlinger"
+    - name: linkedin
+      url: "https://linkedin.com/in/christof-laenzlinger-903bb082"
+    - name: facebook
+      url: "https://www.facebook.com/christof.laenzlinger"
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+  cover:
+    responsiveImages: true # Set to true to enable automatic resizing
+    linkFullImages: false # Optional: allows users to click the cover to see the full size
+  menu:
+    main:
+      - identifier: projects
+        name: projects
+        url: /projects/
+        weight: 10
+      - identifier: tags
+        name: tags
+        url: /tags/
+        weight: 20
