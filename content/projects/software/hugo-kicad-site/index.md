@@ -1,5 +1,5 @@
 ---
-Title: "hugo-kicad-site — Documentation Theme for KiCad Projects"
+Title: "Documentation Theme for KiCad Projects"
 Tags: [electronics, foss, software]
 cover:
   image: "hugo-kicad-site.png"
