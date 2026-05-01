@@ -18,8 +18,8 @@ site — with interactive viewers, auto-generated assets, and zero manual effort
 <!--more-->
 
 Born out of frustration with manually maintaining project pages for my open hardware designs.
-Every time I tagged a release of [Granit](/projects/granit/) or the
-[Open Pedalboard](/projects/pedalboard/), I had to manually update screenshots, BOMs, and download
+Every time I tagged a release of [Granit](/projects/hardware/granit/) or the
+[Open Pedalboard](/projects/hardware/pedalboard/), I had to manually update screenshots, BOMs, and download
 links. hugo-kicad-site automates all of that.
 
 ## How It Works

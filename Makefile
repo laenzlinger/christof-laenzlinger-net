@@ -11,3 +11,6 @@ clean: ## Clean the public directory
 
 serve: ## Serve the site locally
 	hugo server -D --navigateToChanged
+
+check: build ## Check internal links in the built site
+	htmltest

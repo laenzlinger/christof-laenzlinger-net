@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: htmltest
+        name: Check internal links
+        entry: bash
+        language: system
+        pass_filenames: false
+        always_run: true
+        args:
+          - -c
+          - |
+            hugo --quiet --gc
+            htmltest

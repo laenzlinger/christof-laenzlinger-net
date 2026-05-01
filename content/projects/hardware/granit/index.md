@@ -30,10 +30,10 @@ Key specs:
 - **4-layer PCB** with impedance-controlled differential routing, designed in KiCad 10
 - **~€125 BOM cost** — pays for itself in under two years vs. cloud backup
 
-Hardware documentation is [auto-generated via CI](/projects/hugo-kicad-site/):
+Hardware documentation is [auto-generated via CI](/projects/software/hugo-kicad-site/):
 [laenzlinger.github.io/granit](https://laenzlinger.github.io/granit/)
 
 Licensed under [CERN Open Hardware Licence v2 — Permissive](https://ohwr.org/cern_ohl_p_v2.txt).
 
-This project grew out of my [Home NAS Infrastructure](/projects/nas-infra/) — the offsite backup
+This project grew out of my [Home NAS Infrastructure](/projects/hardware/nas-infra/) — the offsite backup
 currently runs on a CM5 with a USB-to-SATA cable. Granit replaces that with a dedicated board.

@@ -31,6 +31,11 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: hugo --gc --minify
 
+      - name: Check internal links
+        uses: wjdp/htmltest-action@v0.19.0
+        with:
+          config: .htmltest.yml
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public

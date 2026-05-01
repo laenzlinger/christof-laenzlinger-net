@@ -13,7 +13,7 @@ weight: 25
 
 A CLI toolkit that bridges [KiCad](https://www.kicad.org/) PCB design and
 [OpenPnP](https://openpnp.org/) pick-and-place machine operation — built to streamline the
-workflow on my [Lumen-PNP pick-and-place machine](/projects/electronic-prototyping/).
+workflow on my [Lumen-PNP pick-and-place machine](/projects/hardware/electronic-prototyping/).
 
 <!--more-->
 

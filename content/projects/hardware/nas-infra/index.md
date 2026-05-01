@@ -51,7 +51,7 @@ ZFS snapshots provide additional local protection. An offsite Raspberry Pi CM5 p
 over VPN using a secure SFTP chroot with read-only access, providing air-gapped protection.
 
 The offsite backup currently runs on a CM5 with a USB-to-SATA cable — functional but inelegant.
-This setup directly motivated the [Granit](/projects/granit/) project: a purpose-built open hardware
+This setup directly motivated the [Granit](/projects/hardware/granit/) project: a purpose-built open hardware
 carrier board with native PCIe SATA, replacing the USB bottleneck with a proper solution.
 
 ## Hardware Lesson Learned: The Intel I226 Network Card

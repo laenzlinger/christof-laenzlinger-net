@@ -1,0 +1,8 @@
+DirectoryPath: public
+CheckExternal: false
+CheckInternal: true
+CheckMailto: false
+CheckImages: false
+CheckDoctype: false
+IgnoreInternalEmptyHash: true
+IgnoreDirectoryMissingTrailingSlash: true

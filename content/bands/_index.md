@@ -17,6 +17,6 @@ This adds another dimension to my musical expression.
 
 Working on my vocal expression has also been a rewarding journey, enhancing my overall musicality.
 
-Set lists are managed with a custom [Setlist Generator](/projects/setlist-generator/).
+Set lists are managed with a custom [Setlist Generator](/projects/software/setlist-generator/).
 
 The musical projects I am involved in:
