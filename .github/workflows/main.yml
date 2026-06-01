@@ -32,9 +32,9 @@ jobs:
         run: hugo --gc --minify
 
       - name: Check internal links
-        uses: wjdp/htmltest-action@v0.19.0
-        with:
-          config: .htmltest.yml
+        run: |
+          curl -sL https://github.com/wjdp/htmltest/releases/download/v0.17.0/htmltest_0.17.0_linux_amd64.tar.gz | tar xz
+          ./htmltest -c .htmltest.yml
 
       - uses: actions/upload-pages-artifact@v3
         with:
