@@ -1,17 +1,18 @@
 ---
 title: "About me"
-description: "Software engineer and system architect with over 20 years of experience. Passionate about electronics, open hardware, and music."
+description: "Embedded software engineer with a background in electrical engineering. Passionate about electronics, open hardware, and music."
 ---
 
-I'm Christof Länzlinger,a software engineer and system architect with over 20 years of experience designing
-and building robust software solutions. My professional journey spans a wide range of technologies and
-industries, with a focus on creating scalable, maintainable systems.
+I'm Christof Länzlinger, an embedded software engineer and system architect with over 25 years of experience.
+My roots are in electrical engineering (FH degree, Elektroniker apprenticeship), and after years of building
+cloud platforms and DevOps systems, I'm returning to what I love most: hardware-close development, real-time
+systems, and the intersection of software and electronics.
 
-Beyond my career, I’m passionate about electronics and music. I enjoy designing and building custom hardware
-and software for musical performances. As a guitarist and singer, I perform with two bands, blending my
-technical and creative interests.
+I work with C/C++, Rust, and Embedded Linux (Yocto) — both professionally and in my own projects. I design
+custom PCBs in KiCad, build embedded systems on Raspberry Pi CM4, and enjoy the full stack from schematic
+to running firmware.
 
-Explore my site to learn more about my work, projects, and passions.
+Beyond engineering, I'm a guitarist and singer performing with two bands.
 
 ## My Resume
 
