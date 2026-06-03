@@ -32,7 +32,7 @@ params:
   profileMode:
     enabled: true
     subtitle: "Embedded Software Engineer, Maker and Musician"
-    imageUrl: "/images/christof-laenzlinger.png"
+    imageUrl: "/images/christof-laenzlinger.jpeg"
     buttons:
       - name: About
         url: "/about"
