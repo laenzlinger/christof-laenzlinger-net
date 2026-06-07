@@ -78,7 +78,9 @@ and closes it. This makes the interaction predictable: one key, one action.
 
 After years with Alacritty and then WezTerm, I settled on
 [foot](https://codeberg.org/dnkl/foot) — a lightweight Wayland-native terminal. It's
-GPU-accelerated, starts instantly, and does one thing well: render text fast.
+GPU-accelerated, starts instantly, and does one thing well: render text fast. Foot supports
+Sixel for inline image rendering — the feature that originally led me away from Alacritty —
+without the overhead of a heavier terminal.
 
 A custom spawn script inherits the working directory from the last active terminal, so new
 windows open where I'm already working.
