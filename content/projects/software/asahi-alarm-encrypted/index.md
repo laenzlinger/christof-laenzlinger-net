@@ -15,6 +15,11 @@ This post documents the complete process step by step.
 - MacBook Pro 16" (2021), M1 Pro, 32GB RAM, 1TB SSD
 - macOS retained on a minimal ~70GB partition (required for firmware updates)
 
+This machine has a defective WiFi/Bluetooth chip that causes constant connectivity issues
+under macOS. Rather than an expensive repair, this became the motivation to repurpose it
+as a full-time Linux machine — the broken chip is irrelevant with a USB WiFi adapter or
+wired connection under Arch.
+
 ## Why Asahi ALARM
 
 The [Asahi Linux](https://asahilinux.org) project reverse-engineered Apple Silicon hardware support,
