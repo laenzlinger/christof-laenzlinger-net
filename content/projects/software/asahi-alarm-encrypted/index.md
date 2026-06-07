@@ -30,8 +30,8 @@ setup, and it expects to write directly to an unencrypted filesystem.
 
 Instead, I use `cryptsetup reencrypt --encrypt` to encrypt the root partition **in-place** after
 the initial install is complete and verified bootable. This technique was inspired by a
-[Gentoo on Asahi guide](https://wiki.gentoo.org/wiki/Apple_Silicon) that uses the same in-place
-encryption strategy. The advantages:
+Gentoo-on-Asahi guide from the [Asahi Linux wiki](https://github.com/AsahiLinux/docs/wiki)
+that used the same in-place encryption strategy. The advantages:
 
 1. Start from a known-working boot — easier to debug before encryption
 2. Preserve the btrfs filesystem and subvolumes created by the installer
@@ -431,8 +431,10 @@ curl https://asahi-alarm.org/installer-bootstrap.sh | sh
 
 - [Asahi Linux](https://asahilinux.org) — Apple Silicon Linux project
 - [Asahi ALARM installer](https://asahi-alarm.org) — Arch Linux ARM variant
-- [Gentoo on Apple Silicon Wiki](https://wiki.gentoo.org/wiki/Apple_Silicon) — inspiration for
-  the in-place encryption approach
+- [Asahi Boot Process Guide](https://github.com/AsahiLinux/docs/blob/main/docs/alt/boot-process-guide.md) —
+  detailed explanation of the m1n1 → U-Boot → GRUB chain
+- [Installing Gentoo with LiveCD](https://github.com/AsahiLinux/docs/wiki/Installing-Gentoo-with-LiveCD) —
+  Asahi wiki guide for Gentoo (inspiration for the in-place encryption approach)
 - [cryptsetup reencrypt](https://man.archlinux.org/man/cryptsetup-reencrypt.8) — in-place
   encryption documentation
 - [Arch Wiki — dm-crypt](https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system)
