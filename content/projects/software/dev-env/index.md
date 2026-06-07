@@ -1,6 +1,6 @@
 ---
 Title: FOSS Development Environment
-description: "Arch Linux development setup with Sway, WezTerm, and LazyVim — a minimal, productive environment for open source work."
+description: "Arch Linux development setup with Sway, foot, and LazyVim — a minimal, productive environment for open source work."
 cover:
   image: "screenshot.png"
   relative: true
@@ -47,15 +47,15 @@ When Wayland matured enough, I moved to [Sway](https://swaywm.org). It's a drop-
 for i3 on Wayland with proper HiDPI support, per-monitor scaling, and no screen tearing.
 The configuration is almost identical to i3, so the transition was painless.
 
-## Terminal: WezTerm
+## Terminal: foot
 
-For years I used [Alacritty](https://alacritty.org) — minimal, fast, reliable. But I eventually
-wanted features it deliberately doesn't offer: inline image rendering, multiplexing, and richer
-text navigation.
+After years with [Alacritty](https://alacritty.org) and then
+[WezTerm](https://wezterm.org), I settled on [foot](https://codeberg.org/dnkl/foot) — a
+lightweight Wayland-native terminal. It starts instantly, handles HiDPI correctly, and
+integrates cleanly with Sway. It does one thing well: render text fast.
 
-[WezTerm](https://wezterm.org) provides all of that while remaining GPU-accelerated and
-configurable in Lua. It's one of the few terminals that handles both HiDPI scaling and
-Nerd Font ligatures correctly across Wayland compositors.
+A custom spawn script inherits the working directory from the last active terminal, so new
+windows open where I'm already working.
 
 ## Colors: Tinted Theming
 
