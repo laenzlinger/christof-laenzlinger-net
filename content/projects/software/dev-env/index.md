@@ -77,8 +77,8 @@ and closes it. This makes the interaction predictable: one key, one action.
 ## Terminal: foot
 
 After years with Alacritty and then WezTerm, I settled on
-[foot](https://codeberg.org/dnkl/foot) — a lightweight Wayland-native terminal. It starts
-instantly, handles HiDPI correctly, and does one thing well: render text fast.
+[foot](https://codeberg.org/dnkl/foot) — a lightweight Wayland-native terminal. It's
+GPU-accelerated, starts instantly, and does one thing well: render text fast.
 
 A custom spawn script inherits the working directory from the last active terminal, so new
 windows open where I'm already working.
