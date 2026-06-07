@@ -123,3 +123,16 @@ authentication.
 Secrets in the dotfiles repository are encrypted with [sops](https://github.com/getsops/sops),
 so the repo stays public while credentials remain private. Passwords live in
 [KeePassXC](https://keepassxc.org), accessible via a keyboard shortcut from any workspace.
+
+## Why This Still Works (2026)
+
+This setup has been running for years with only incremental changes — a terminal swap here,
+a new rofi mode there. The core choices (Arch, Sway, Neovim, chezmoi) age well because they
+avoid abstraction layers that rot. There's no desktop environment to deprecate features, no
+framework to break upgrades, no cloud dependency to shut down.
+
+The Wayland ecosystem maturing validated the early Sway bet. Foot, Waybar, and Rofi all work
+better on Wayland now than X11 ever did. The only real change in years was moving from
+Alacritty to WezTerm to foot — each time simplifying, not adding complexity.
+
+Minimal tools that do one thing well tend to outlast feature-rich alternatives.
