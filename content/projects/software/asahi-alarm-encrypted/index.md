@@ -404,11 +404,6 @@ If you see "device total_bytes should be at most X but found Y", the btrfs files
 shrunk enough before encryption. Always shrink by 256 MiB — btrfs rounds internally and a
 smaller margin may not be sufficient.
 
-### Boot Chain Recovery
-
-If boot fails completely, hold the power button to access macOS startup options. From macOS
-you can mount the EFI partition (`diskutil mount disk0s4`) and fix GRUB configuration.
-
 ### Starting Over
 
 If you need to reinstall, from macOS Terminal:
