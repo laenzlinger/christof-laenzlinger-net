@@ -406,6 +406,11 @@ smaller margin may not be sufficient.
 
 ### Starting Over
 
+Getting this right took multiple full reinstalls. Each failed attempt taught me something —
+wrong GRUB configuration, insufficient btrfs shrink, or a missed fstab entry — and the
+"Starting Over" procedure below became well-practiced. The final successful run is what this
+guide documents.
+
 If you need to reinstall, from macOS Terminal:
 
 ```bash
