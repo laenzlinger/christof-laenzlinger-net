@@ -17,6 +17,12 @@ I want to understand and own my tools. When something breaks, I want to fix it â
 support ticket and wait. When something annoys me, I want to change it. A fully open-source
 stack makes this possible at every layer, from the window manager to the editor.
 
+I prefer fewer abstractions. Every layer between me and the system is a layer I don't control
+and will eventually have to debug through. The tools in this setup talk to each other via files
+and environment variables â€” not frameworks, not daemon protocols, not plugin APIs. The one
+exception is [LazyVim](#editor-neovim-with-lazyvim): it abstracts away *maintenance*, not
+*understanding*. I can still read every config and override anything.
+
 Arch Linux is the foundation because it stays out of the way. No preconfigured desktop, no
 bundled applications, no opinions about how I should work. I install exactly what I need and
 configure it exactly how I want. The rolling-release model means I always have current software
