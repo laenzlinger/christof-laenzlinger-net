@@ -16,6 +16,18 @@ provides a minimal base system that allows me to install only the packages and t
 After many years of using different Linux distributions, I settled on Arch Linux for its simplicity.
 I want to have control over my system and avoid unnecessary bloatware.
 
+## Multi-Machine Setup
+
+I run the same environment on two machines:
+
+- **gibson** — ThinkPad X1 Carbon Gen 12 (Intel, daily driver)
+- **fender** — MacBook Pro 16" M1 (Apple Silicon via [Asahi ALARM](/projects/software/asahi-alarm-encrypted/))
+
+Both run Arch Linux with identical tooling. All configuration is managed through
+[chezmoi](https://www.chezmoi.io) from a single dotfiles repository, with machine-specific
+differences (package lists, display scaling, kernel) handled via templates. A change made on
+one machine is a `git pull` away on the other.
+
 ## Desktop Environment
 
 After meeting Micheal Stapelberg, the author of the [i3 window manager](https://i3wm.org)
