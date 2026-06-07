@@ -27,6 +27,7 @@ languages:
 
 params:
   env: production
+  hideAuthor: true
   description: "Personal website of Christof Länzlinger — software engineer, maker and musician."
   author: Christof Länzlinger
   profileMode:
