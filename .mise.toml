@@ -1,5 +1,2 @@
 [tools]
-nodejs = "lts"
-"npm:resume-cli" = "latest"
-"npm:jsonresume-theme-elegant" = "latest"
-"go:github.com/wjdp/htmltest" = "latest"
+hugo = "0.162"
