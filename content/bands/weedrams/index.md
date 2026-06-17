@@ -20,7 +20,10 @@ heart — that feels ancient and alive at the same time.
 
 With the Weedrams I'm discovering this world step by step: the tunes, the ornamentation,
 the songs, the stories, the way a good session feels when everyone locks in together.
-I'm still learning, still digging — and that's exactly what makes it exciting.
+A workshop with [Seamie O'Dowd](https://seamieodowd.bandcamp.com/) in Sligo — an
+incredibly gifted musician — pushed my Irish guitar playing further and deepened my
+love for this tradition. I'm still learning, still digging — and that's exactly what
+makes it exciting.
 
 Jigs, reels, hornpipes, ballads, rebel songs, and the occasional waltz. Played on
 guitar, mandolin, and whatever the moment calls for.
