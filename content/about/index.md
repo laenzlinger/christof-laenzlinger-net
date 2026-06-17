@@ -12,7 +12,11 @@ I work with C/C++, Rust, and Embedded Linux (Yocto) — both professionally and 
 custom PCBs in KiCad, build embedded systems on Raspberry Pi CM4, and enjoy the full stack from schematic
 to running firmware.
 
-Beyond engineering, I'm a guitarist and singer performing with two bands.
+Beyond engineering, I'm a [guitarist and singer](/bands/) — performing American roots music
+and Irish folk with two bands. Music has been a constant in my life since my teenage years,
+when I first fell in love with country blues and fingerstyle guitar. It's the same curiosity
+that drives my engineering: wanting to understand how things work, going back to the source,
+and building something honest from what I find there.
 
 ## My Resume
 
