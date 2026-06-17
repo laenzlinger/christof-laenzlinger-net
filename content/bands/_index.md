@@ -17,7 +17,9 @@ at musicians like Blind Blake or Doc Watson, who did things on the guitar decade
 that I still can't fully grasp.
 
 The fingerstyle technique, shaped by these early blues guitarists, is at the heart of
-what I do. I love the acoustic guitar for its warmth and versatility — it's the only
+what I do. I'm largely self-taught, but workshops with
+Dave Goodman and Werner Widmer helped me grow as an acoustic guitarist.
+I love the acoustic guitar for its warmth and versatility — it's the only
 instrument I need to carry a whole song.
 
 In recent years, I've been drawn ever deeper into traditional Irish and Scottish folk
