@@ -32,7 +32,7 @@ params:
   author: Christof Länzlinger
   profileMode:
     enabled: true
-    subtitle: "Embedded Software Engineer, Maker and Musician"
+    subtitle: "Engineer, Maker and Musician"
     imageUrl: "/images/christof-laenzlinger.jpeg"
     buttons:
       - name: About
