@@ -1,6 +1,6 @@
 ---
 Title: Projects
 Type: List
-Description: "Some of my various projects and collaborations."
+Description: "Open source hardware and software projects — embedded systems, PCB design, CLI tools, and infrastructure."
 ---
 

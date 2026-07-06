@@ -18,6 +18,14 @@ when I first fell in love with country blues and fingerstyle guitar. It's the sa
 that drives my engineering: wanting to understand how things work, going back to the source,
 and building something honest from what I find there.
 
+Particularly interested in the intersection of music technology and embedded engineering.
+
 ## My Resume
 
 - [View my resume (HTML)](/resume.html)
+
+## Contact
+
+- Email: {{< email user="christof" domain="laenzlinger.net" >}}
+- GitHub: [laenzlinger](https://github.com/laenzlinger)
+- LinkedIn: [Christof Länzlinger](https://www.linkedin.com/in/christof-laenzlinger-903bb082/)

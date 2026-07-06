@@ -1,0 +1,17 @@
+{{- $user := .Get "user" -}}
+{{- $domain := .Get "domain" -}}
+<span id="email-protected">
+  <noscript>{{ $user }} [at] {{ $domain }}</noscript>
+</span>
+<script>
+(function() {
+  var u = '{{ $user }}';
+  var d = '{{ $domain }}';
+  var el = document.getElementById('email-protected');
+  var a = document.createElement('a');
+  a.href = 'mail' + 'to:' + u + '@' + d;
+  a.textContent = u + '@' + d;
+  el.textContent = '';
+  el.appendChild(a);
+})();
+</script>

@@ -28,11 +28,23 @@ languages:
 params:
   env: production
   hideAuthor: true
-  description: "Personal website of Christof Länzlinger — software engineer, maker and musician."
+  description: "Christof Länzlinger — Embedded Software Engineer, System Architect. Rust, C/C++, KiCad, Yocto, open hardware. 25+ years experience."
+  keywords:
+    - "embedded software engineer"
+    - "system architect"
+    - "Rust"
+    - "C/C++"
+    - "KiCad"
+    - "Yocto"
+    - "open hardware"
+    - "PCB design"
+    - "embedded Linux"
+    - "real-time systems"
+    - "Switzerland"
   author: Christof Länzlinger
   profileMode:
     enabled: true
-    subtitle: "Engineer, Maker and Musician"
+    subtitle: "Embedded Software Engineer · Rust · C/C++ · KiCad · Open Hardware"
     imageUrl: "/images/christof-laenzlinger.jpeg"
     buttons:
       - name: About
@@ -44,6 +56,12 @@ params:
       url: "https://linkedin.com/in/christof-laenzlinger-903bb082"
     - name: facebook
       url: "https://www.facebook.com/christof.laenzlinger"
+  schema:
+    publisherType: "Person"
+    sameAs:
+      - "https://github.com/laenzlinger"
+      - "https://www.linkedin.com/in/christof-laenzlinger-903bb082/"
+      - "https://gitlab.com/laenzi"
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
