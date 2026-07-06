@@ -4,6 +4,7 @@ description: "Embedded software engineer with a background in electrical enginee
 ---
 
 I'm Christof Länzlinger, an embedded software engineer and system architect with over 25 years of experience.
+Based in Eastern Switzerland. German native, English fluent.
 My roots are in electrical engineering (FH degree, Elektroniker apprenticeship), and after years of building
 cloud platforms and DevOps systems, I'm returning to what I love most: hardware-close development, real-time
 systems, and the intersection of software and electronics.
