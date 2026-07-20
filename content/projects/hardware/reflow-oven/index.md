@@ -1,5 +1,6 @@
 ---
 Title: Reflow Oven
+description: "Converted toaster oven for SMD reflow soldering — part of a DIY electronic prototyping setup."
 Tags: [electronics]
 weight: 20
 ---

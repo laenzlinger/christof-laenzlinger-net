@@ -1,5 +1,6 @@
 ---
 Title: "openpnp-tools — CLI Toolkit for OpenPnP"
+description: "CLI toolkit in Go that bridges KiCad PCB design and OpenPnP pick-and-place operation — automates board generation, part management, and feeder assignment."
 Tags: [electronics, software, foss]
 cover:
   image: "feeder-map.png"

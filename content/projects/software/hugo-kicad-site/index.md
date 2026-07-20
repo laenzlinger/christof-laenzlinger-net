@@ -1,5 +1,6 @@
 ---
 Title: "Documentation Theme for KiCad Projects"
+description: "Hugo theme that auto-generates versioned documentation sites for KiCad hardware projects — with interactive viewers, BOM, 3D renders, and visual diffs."
 Tags: [electronics, foss, software]
 cover:
   image: "hugo-kicad-site.png"

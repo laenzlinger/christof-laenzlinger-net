@@ -1,5 +1,6 @@
 ---
 Title: Weedrams
+description: "Weedrams — Irish and Scottish folk music band. Jigs, reels, ballads, and rebel songs played with heart and tradition."
 Tags: [band]
 cover:
     image: "weedrams.jpg"

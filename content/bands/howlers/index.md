@@ -1,5 +1,6 @@
 ---
 Title: Black&White Chocolate Howlers
+description: "B&W Chocolate Howlers — acoustic duo performing blues, ragtime, swing, and French chansons. Irène Capello and Christof Länzlinger."
 Tags: [band]
 cover:
     image: "howlers.jpg"

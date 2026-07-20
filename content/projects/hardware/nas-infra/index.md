@@ -1,5 +1,6 @@
 ---
 Title: Home NAS Infrastructure
+description: "Self-hosted NAS with K3s, ZFS, FluxCD GitOps, and a 3D-printed case with Grafana kiosk display. Full Infrastructure-as-Code setup."
 Tags: [linux, software, foss, electronics, raspberry-pi, embedded]
 cover:
   image: "nas-photo.jpg"

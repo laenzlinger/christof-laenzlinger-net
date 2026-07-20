@@ -1,5 +1,6 @@
 ---
 Title: Electronic Prototyping
+description: "DIY SMD assembly setup with Lumen-PNP pick-and-place machine, reflow oven, and automated KiCad-to-OpenPnP workflow."
 Tags: [electronics]
 cover:
   image: "lumen-pnp.jpeg"

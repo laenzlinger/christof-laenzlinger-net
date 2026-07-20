@@ -4,6 +4,10 @@ title: Christof Länzlinger
 theme: ["PaperMod"]
 enableRobotsTXT: true
 
+sitemap:
+  changeFreq: monthly
+  priority: 0.5
+
 languages:
   en:
     languageName: "English"
@@ -42,6 +46,12 @@ params:
     - "real-time systems"
     - "Switzerland"
   author: Christof Länzlinger
+  schema:
+    publisherType: "Person"
+    sameAs:
+      - "https://github.com/laenzlinger"
+      - "https://linkedin.com/in/christof-laenzlinger-903bb082"
+      - "https://www.facebook.com/christof.laenzlinger"
   profileMode:
     enabled: true
     subtitle: "Embedded Software Engineer · Rust · C/C++ · KiCad · Open Hardware"
@@ -56,12 +66,6 @@ params:
       url: "https://linkedin.com/in/christof-laenzlinger-903bb082"
     - name: facebook
       url: "https://www.facebook.com/christof.laenzlinger"
-  schema:
-    publisherType: "Person"
-    sameAs:
-      - "https://github.com/laenzlinger"
-      - "https://www.linkedin.com/in/christof-laenzlinger-903bb082/"
-      - "https://gitlab.com/laenzi"
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"

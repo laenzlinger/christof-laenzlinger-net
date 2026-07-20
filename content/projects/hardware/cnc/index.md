@@ -1,5 +1,6 @@
 ---
 Title: CNC Milling Project
+description: "DIY CNC milling machine build — a rigid machine for wood, plastics, and aluminum, as a stepping stone toward a PrintNC build."
 cover:
   image: "srcnc.png"
   relative: true

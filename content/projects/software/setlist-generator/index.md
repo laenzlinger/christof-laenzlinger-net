@@ -1,5 +1,6 @@
 ---
 Title: Setlist Generator
+description: "CLI tool for generating formatted set lists, cheat sheets, and Suisa song lists from markdown files — built for live musicians."
 Tags: [software]
 cover:
   image: "setlist.png"
