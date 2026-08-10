@@ -33,16 +33,16 @@ for audio processing. When the pedal broke due to overvoltage, I decided to buil
 ## Architecture
 
 Two independent processors — an RP2040 for MIDI control (instant startup, written in Rust) and a
-CM4/CM5 running ELK Audio OS for real-time audio processing — connected over USB-MIDI.
+CM4/CM5 running Debian + JACK + mod-host for real-time audio processing — connected over USB-MIDI.
 
 The separation is deliberate: the control layer (foot switches, LEDs, MIDI routing) must respond
 instantly regardless of what the audio engine is doing. The RP2040 boots in milliseconds and
 handles all user interaction. The Compute Module handles DSP-heavy audio processing with
-hard real-time guarantees via ELK Audio OS (Xenomai-patched Linux kernel).
+audio processing via Debian + JACK + mod-host.
 
 ## Technical Details
 
-### Hardware (KiCad, 4-layer PCB)
+### Hardware (KiCad)
 
 - **Raspberry Pi CM5** — runs Debian + JACK + mod-host for real-time audio
 - **RP2040** — Rust/RTIC firmware for MIDI control, foot switches, LED control
@@ -90,7 +90,7 @@ The RP2040 firmware is written entirely in Rust using the RTIC real-time framewo
 
 ## Skills involved
 
-PCB design (KiCad), embedded firmware (Rust), real-time audio (ELK Audio OS),
+PCB design (KiCad), embedded firmware (Rust), real-time audio (JACK + mod-host),
 3D-printed mechanical parts (OpenSCAD), and SMD assembly.
 
 Licensed under CERN-OHL-P-2.0 — from free musicians for free musicians.
